@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <main>
+     <nav class='navBar'>
+       <h1>Mansi Awachat Portfolio</h1>
+       <div class='navigationMenu'>
+         <a href='#aboutme'>About me </a>
+         <a href='#skills'>Skills</a>
+         <a href='#projects'>Project</a>
+         <a href='#contactForm'>Let's connect</a>
+         </div>
+       </nav>
+       <section class='heroSection'>
+         <img class='profileImage'src='https://www.w3schools.com/howto/img_avatar2.png'>
+         <div class='heroSectionDetails'> 
+           <h1>Mansi Awachat</h1>
+           <h3>Student at Ramrao Adik Institute of technology</h3>
+         </div>
+       </section>
+       <section class='aboutme' id='aboutme'>
+         <h1>What I Do....</h1>
+         <p>I am Mansi Awachat currently pursuing BE from EXTC Branch in Mumbai University. Being a fresher I think , I am flexible and adaptive for learning new things .I am lookong for internship so that I can acquire my experience and sharpen my skills </p>
+
+       </section>
+       <section class='SkillsandProjects'>
+         <div class='skills'id='skills'>
+           <h1 class='cardHeading'>skills</h1>
+           <img src='/image/html.svg' titles='html'>
+           <img src='https://cdn.freebiesupply.com/logos/thumbs/2x/css3-logo.png' titles='css'>
+           <img src='https://cdn.vox-cdn.com/thumbor/VoXJ8IaxCj5_U-366JhtUHLkdQ0=/0x0:640x427/1400x1050/filters:focal(0x0:640x427):format(jpeg)/cdn.vox-cdn.com/assets/1087137/java_logo_640.jpg' titles='java'>
+           <img src='data:image/png;base64,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' titles='C++'>
+           </div>
+           <div class='Projects' id='Projects'>
+             <h1 class='cardHeading'>Projects</h1>
+             <div class='projectContainer'> 
+               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiezfz1-NqYxYLAmUOKjWmrevetyKZ1uK6ng&usqp=CAU'>
+               <div class='projectDescription'>
+                 <h4> Drowsy Driver Detection system </h4>
+                 <p> For the safety of the human being some automation is made. The purpose of such a model is to advance a system to detect fatigue symptoms in drivers and control the speed of vehicle to avoid accidents. Advanced technology offers some hope avoid these up to some extent. This project involves measure and control eye blink using Arduino.  </p>
+               </div>
+             </div>
+             <div class='projectContainer'> 
+               <img src='https://electrosome.com/wp-content/uploads/2016/12/Digital-Door-Lock-using-Arduino-Uno.jpg'>
+               <div class='projectDescription'>
+                 <h4> Door Lock Security System </h4>
+                 <p> In this system Arduino controls the entire process, such as taking the password from a keypad module, comparing passwords, turning the servo motor, and sending the status to the LCD display. The keypad is used to enter the password .Similarly, the servo motor is used to open the gate when the motor is rotating and the LCD is used to display status or a message on it. </p>
+               </div>
+             </div>
+             <div class='projectContainer'> 
+               <img src='/image/css.svg'>
+               <div class='projectDescription'>
+                 <h4> project name</h4>
+                 <p>hyfggkjuhjinjkbgdartdyugoijohvfartdyuguhjbv </p>
+               </div>
+             </div>
+             </div>
+
+       </section>
+       <section class='contactForm'id='contactForm'>
+         <h1>Let's connect ! </h2>
+         <div class ='formGroup'>
+           <label for='name'>Enter Full Name</lable><br/>
+           <input type='text'id='name' placeholder="Full Name"/>
+           </div> 
+           <div class ='formGroup' >
+             <label for ='email'>Email</label><br/>
+             <input type='text' id='email'placeholder='Email'/>
+           </div>
+           <div class ='formGroup'>
+             <label for ='message'>Message</label><br/>
+             <textarea placeholder="Send some message!" id='message' name ='w3review'
+             rows ='4' cols='50'></textarea>
+           </div>
+           <button class ='submitbutton' onclick={submit()}>Connect</button>
+           </section>
+
+           </main>
+  </body>
+</html>
